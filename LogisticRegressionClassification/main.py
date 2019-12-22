@@ -17,7 +17,7 @@ validation_images = v_images.reshape(v_images.shape[1] ** 2 * 3, v_images.shape[
 training_images = training_images / 255
 validation_images = validation_images / 255
 
-# Visualize Dimentions
+# Visualize Dimensions
 print("Training Dataset: {}".format(training_images.shape))
 print("Validation Dataset: {}".format(validation_images.shape))
 print("Training Labels: {}".format(t_labels.shape))
